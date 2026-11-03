@@ -83,6 +83,8 @@ nav ul a:hover{color:var(--pink2)}
 .card h3{margin:0 0 4px;font-size:1.05rem}
 .card p{margin:0;color:var(--mute);font-size:.88rem}
 .card a.l{display:inline-block;margin-top:12px;color:var(--pink2);font-size:.85rem;font-weight:600}
+.card ul.pts{margin:12px 0 0;padding-left:18px;color:var(--mute);font-size:.84rem}
+.card ul.pts li{margin-bottom:5px}
 
 .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}@media(max-width:700px){.grid2{grid-template-columns:1fr}}
 .live{font-size:.65rem;background:var(--pink);color:#fff;padding:2px 8px;border-radius:99px;vertical-align:middle}
@@ -158,14 +160,14 @@ header,main,footer{position:relative;z-index:1}
 
 <section id="skills"><div class="wrap">
 <h2>My skills</h2><p class="sub">Full-stack, security and AI</p>
-<div class="grid3"><div class="card"><h3>Languages</h3><div class="tags"><span>Python</span><span>C</span><span>JavaScript</span><span>SQL</span><span>Java (basic)</span></div></div><div class="card"><h3>Frontend</h3><div class="tags"><span>React.js</span><span>Next.js</span><span>HTML5</span><span>CSS3</span><span>Responsive design</span><span>UI design</span><span>Leaflet.js</span><span>Streamlit</span></div></div><div class="card"><h3>Backend</h3><div class="tags"><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>Open API</span><span>JWT auth</span><span>AES-256</span></div></div><div class="card"><h3>Databases and cloud</h3><div class="tags"><span>PostgreSQL</span><span>MongoDB</span><span>SQLite</span><span>Supabase</span><span>Vercel</span><span>Render</span><span>Netlify</span></div></div><div class="card"><h3>Cybersecurity</h3><div class="tags"><span>Burp Suite</span><span>Web application security</span><span>Vulnerability assessment</span><span>Threat and vulnerability management</span><span>Network security</span></div></div><div class="card"><h3>AI, data and tools</h3><div class="tags"><span>Gemini API</span><span>Pandas</span><span>Quantitative analysis</span><span>Data structures</span><span>Algorithms</span><span>Git</span><span>GitHub</span><span>VS Code</span></div></div></div></div></section>
+<div class="grid3"><div class="card"><h3>Languages</h3><div class="tags"><span>Python</span><span>C</span><span>JavaScript</span><span>TypeScript</span><span>SQL</span><span>Java (basic)</span></div></div><div class="card"><h3>Frontend</h3><div class="tags"><span>React.js</span><span>Next.js</span><span>HTML5</span><span>CSS3</span><span>Responsive design</span><span>UI design</span><span>Leaflet.js</span><span>Chart.js</span><span>Streamlit</span></div></div><div class="card"><h3>Backend</h3><div class="tags"><span>Node.js</span><span>Express.js</span><span>FastAPI</span><span>Flask</span><span>REST APIs</span><span>Open API</span><span>JWT auth</span><span>AES-256</span></div></div><div class="card"><h3>Databases and cloud</h3><div class="tags"><span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span><span>SQLite</span><span>Supabase</span><span>Docker</span><span>Vercel</span><span>Render</span><span>Netlify</span></div></div><div class="card"><h3>Cybersecurity</h3><div class="tags"><span>Burp Suite</span><span>Web application security</span><span>Vulnerability assessment</span><span>Phishing detection</span><span>Threat and vulnerability management</span><span>Network security</span></div></div><div class="card"><h3>AI, data and tools</h3><div class="tags"><span>Gemini API</span><span>scikit-learn</span><span>XGBoost</span><span>SHAP</span><span>Pandas</span><span>Quantitative analysis</span><span>Data structures</span><span>Algorithms</span><span>Git</span><span>GitHub</span><span>VS Code</span></div></div></div></div></section>
 
 <section id="experience"><div class="wrap">
 <h2>Experience</h2><p class="sub">Four internships: three completed, one in progress</p>
 <div class="grid2"><div class="card"><h3>Cybersecurity Intern <span class="live">Ongoing</span></h3><p>ElevanceSkills · Nov 2026 – Present · Remote</p><div class="tags"><span>Cybersecurity</span><span>Web application security</span><span>Vulnerability assessment</span><span>Burp Suite</span></div><p>Hands-on projects in real-world vulnerability research and responsible disclosure, including finding and reporting security issues through bug bounty.</p></div><div class="card"><h3>Artificial Intelligence Intern</h3><p>InAmigos Foundation (IAF) · Oct 2026 · Remote</p><div class="tags"><span>Artificial Intelligence</span></div><p>Completed an AI internship with practical, task-based learning on real-world AI applications.</p></div><div class="card"><h3>Full-Stack Web Development Intern</h3><p>Krutanic Solutions · Jul – Sep 2026 · Remote</p><div class="tags"><span>React</span><span>Node.js</span><span>Database integration</span><span>Responsive UI</span></div><p>Front-end and back-end development, responsive UI design, database integration and debugging on team assignments.</p></div><div class="card"><h3>Full-Stack Web Development Intern</h3><p>CodeBind Technologies, Coimbatore · Jun 2026 · On-site</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span></div><p>Built and managed web applications under industry mentorship. Earned a Project Completion Certification.</p></div></div></div></section>
 
 <section id="projects"><div class="wrap">
-<h2>Projects</h2><p class="sub">Five things I built or practise on, all on GitHub</p>
+<h2>Projects</h2><p class="sub">Five projects I built, all on GitHub</p>
 <div class="card feat">
 <div>
 <h3>CivicVoice <span class="live">Live</span></h3>
@@ -177,15 +179,26 @@ header,main,footer{position:relative;z-index:1}
 <li>Live map, QR timelines, officer portal, admin dashboard, chatbot, English, Hindi and Tamil</li>
 </ul>
 <div class="tags"><span>Next.js</span><span>Node.js</span><span>Express</span><span>Supabase</span><span>Gemini API</span><span>Render</span><span>Vercel</span></div>
-<a class="l" href="https://github.com/monishasundaram/CivicVoice" target="_blank" rel="noopener">View on GitHub</a>
+<a class="l" href="https://civic-voice-mu.vercel.app" target="_blank" rel="noopener">Live demo</a> &nbsp; <a class="l" href="https://github.com/monishasundaram/CivicVoice" target="_blank" rel="noopener">View on GitHub</a>
 </div>
 <ol class="flow"><li>Citizen files a complaint with photo and location</li><li>AI checks the proof and routes it to a department</li><li>Officer acts and the public timeline updates</li><li>Citizen gets an email when the status changes</li></ol>
 </div>
 <div class="grid2" style="margin-top:20px">
-<div class="card"><h3>Natural-Language SQL Query Builder</h3><p>Ask a database questions in plain English and get safe read-only SQL, the result table and an explanation. Built with a teammate.</p><div class="tags"><span>Python</span><span>Streamlit</span><span>Gemini</span><span>SQLite</span></div><a class="l" href="https://github.com/monishasundaram" target="_blank" rel="noopener">View on GitHub</a></div>
-<div class="card"><h3>Bloom, Expense Tracker <span class="live">Live</span></h3><p>A responsive app to log daily expenses, sort spending into categories and see totals. Deployed on Netlify.</p><div class="tags"><span>React.js</span><span>JavaScript</span><span>CSS</span></div><a class="l" href="https://github.com/monishasundaram/Bloom." target="_blank" rel="noopener">View on GitHub</a></div>
-<div class="card"><h3>Cricket Team</h3><p>A JavaScript project to manage and display a cricket team.</p><div class="tags"><span>JavaScript</span></div><a class="l" href="https://github.com/monishasundaram/cricket-team" target="_blank" rel="noopener">View on GitHub</a></div>
-<div class="card"><h3>Daily problem solving</h3><p>Data structures and algorithms practice in Python, Java and C.</p><div class="tags"><span>Python</span><span>Java</span><span>C</span></div><a class="l" href="https://github.com/monishasundaram/Leet-code" target="_blank" rel="noopener">LeetCode repo</a> &nbsp; <a class="l" href="https://github.com/monishasundaram/GFG" target="_blank" rel="noopener">GFG repo</a> &nbsp; <a class="l" href="https://github.com/monishasundaram/C-programs" target="_blank" rel="noopener">C programs</a></div>
+<div class="card"><h3>VulnSight AI</h3><p>An evidence-led web security assessment workspace for authorized targets. Register a target, run a bounded scan, triage findings and download a report.</p>
+<ul class="pts"><li>Passive checks on security headers, HTTPS redirects, TLS metadata and cookie attributes, in Quick, Standard and Advanced profiles</li><li>SSRF protection: blocks private and loopback hosts, pins DNS and revalidates redirects</li><li>Argon2id passwords, server-side sessions, CSRF checks and per-user records</li><li>PDF and JSON reports generated from saved scan results</li></ul>
+<div class="tags"><span>React 19</span><span>TypeScript</span><span>FastAPI</span><span>SQLAlchemy</span><span>SQLite</span><span>Docker</span></div><a class="l" href="https://github.com/monishasundaram/VulnSight-AI" target="_blank" rel="noopener">View on GitHub</a></div>
+
+<div class="card"><h3>PhishScan</h3><p>A URL threat analyser: an end-to-end ML system that classifies links as phishing or legitimate, tuned to catch attacks rather than just score well.</p>
+<ul class="pts"><li>Logistic Regression, Random Forest and XGBoost compared on F2-score, with the threshold tuned for recall of 0.95 or better</li><li>Typosquat, brand-impersonation and IDN homograph detection</li><li>SHAP explanations show which features drove each verdict</li><li>Flask dashboard with scan history and trend chart, one-command Docker run</li></ul>
+<div class="tags"><span>Python</span><span>Flask</span><span>scikit-learn</span><span>XGBoost</span><span>SHAP</span><span>Docker</span></div><a class="l" href="https://github.com/monishasundaram/PhishScan" target="_blank" rel="noopener">View on GitHub</a></div>
+
+<div class="card"><h3>Bloom, Expense Tracker</h3><p>A soft, modern personal expense tracker with a calm neomorphism interface for budgets, savings goals and spending insights.</p>
+<ul class="pts"><li>Dashboard, transactions with search, filter and sort, categories, budgets and savings goals</li><li>Analytics with range toggle, printable reports and budget alerts</li><li>Light and dark themes, fully responsive</li><li>Spring Boot and MySQL API layer for persistent storage</li></ul>
+<div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Chart.js</span><span>Spring Boot</span><span>MySQL</span></div><a class="l" href="https://github.com/monishasundaram/Bloom." target="_blank" rel="noopener">View on GitHub</a></div>
+
+<div class="card"><h3>AI Database Analyst</h3><p>A natural-language-to-SQL assistant for non-SQL learners. Ask in plain English and get safe SQL, the result, an explanation and a chart.</p>
+<ul class="pts"><li>Only SELECT and WITH queries run; writes, DDL and stacked statements are blocked</li><li>Plain-English explanation, optimisation tips and automatic Plotly charts</li><li>Works offline with a built-in engine, upgrades to OpenAI or Gemini with a key</li><li>Schema auto-detection, query history and export to CSV, Excel and PDF</li></ul>
+<div class="tags"><span>Python</span><span>Streamlit</span><span>SQLite</span><span>Gemini</span><span>OpenAI</span><span>Plotly</span></div><a class="l" href="https://github.com/monishasundaram/AI-DATABASE-ANALYST" target="_blank" rel="noopener">View on GitHub</a></div>
 </div></div></section>
 
 <section id="certs"><div class="wrap">
